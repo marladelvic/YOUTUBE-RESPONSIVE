@@ -1,0 +1,165 @@
+/* ----------------- caracteristicas masivas ------------------- */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------- nav ------------------------ */
+.pantalla{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 5px; */
+    /* position: relative; */
+}
+
+#navbar{
+    position: sticky; /*mantiene el elemento en el tope de la pantalla con top=0*/
+    top: 0;
+    background-color: white;
+    height: 70px; /*altura*/
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between;
+    align-items: center; */
+    gap: 12px; /*espacio entre los elementos del nav (se rigen por la clase "pantalla")*/
+    padding: 25px 20px 35px 20px; /*borde interno del eje x*/
+    background-color: white;
+}
+
+#nav_s1, #nav_s3{
+    /* position: relative; */
+    /* background-color: yellow; */
+    gap: 20px;
+    /* width: 100px;
+    height: 10px; */
+}
+
+#nav_s2{
+    width: 680px;
+}
+
+/* section{
+    background-color: yellow;
+} */
+
+
+/* ----------------------- seccion izquierda del nav ------------------------ */
+#menu{
+    /* position: relative ; */
+    border-radius: 40px;
+    width: 40px;
+    background-color: white;
+    cursor:pointer;
+    padding: 5px; /*imagen interna se ve mas pequena*/
+}
+
+#menu:hover{
+    background-color: rgb(229,230,230);
+    cursor:pointer;
+}
+
+#logo{
+    /* position: relative; */
+    width: 90px;
+    height: 45px;
+    /* top: 10px; */
+    /* left: 73px; */
+    cursor:pointer;
+    /* background-color: white; */
+}
+
+
+/* ----------------------- seccion central del nav ------------------------ */
+#buscar{
+    /* position: absolute; */
+    border-radius: 30px 0px 0px 30px;
+    /* border-style:inset; */
+    border-width: 1px;
+    border-color: rgb(216, 213, 213);
+    /* width: 530px; */
+    width: 550px;
+    height: 42px;
+    padding: 20px;
+    /* top: 1px; */
+    /* left: 48px; */
+    /* background-color: white; */
+    /* border-color: rgb(242, 244, 244); */
+    font-size: medium;
+    color: grey;
+    cursor:text;
+}
+
+#lupa{
+    position: relative;
+    right: 14px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(216, 213, 213);
+    border-radius: 0px 40px 40px 0px;
+    /* width: 60px; */
+    height: 42px;
+    /* top: 10px; */
+    /* right: 460px; */
+    background-color: rgb(242, 244, 244);
+    cursor:pointer;
+    padding: 10px 20px;
+}
+
+#lupa:hover{
+    background-color: rgb(229,230,230);
+}
+
+#micro{
+    /* position: absolute; */
+    border-radius: 40px;
+    width: 40px;
+    /* height: 40px; */
+    /* top: 10px; */
+    left: 20px;
+    background-color: rgb(242, 244, 244);
+    cursor:pointer;
+    padding: 9px;
+}
+
+#micro:hover{
+    background-color: rgb(229,230,230);
+}
+
+
+/* ----------------------- seccion derecha del nav ------------------------ */
+#crear{
+    /* position: absolute; */
+    border-radius: 40px;
+    width: 40px;
+    background-color: white;
+    cursor:pointer;
+    padding: 8px; /*imagen interna se ve mas pequena*/
+}
+
+#crear:hover{
+    background-color: rgb(229,230,230);
+}
+
+#notifi{
+    /* position: absolute; */
+    padding: 12px; /* imagen interna se ve mas pequena*/
+    border-radius: 40px;
+    width: 40px;
+    background-color: white;
+    cursor:pointer;
+}
+
+#notifi:hover{
+    background-color: rgb(229,230,230);
+}
+
+#usuario{
+    /* position: absolute; */
+    border-radius: 40px;
+    width: 30px;
+    /* background-color: white; */
+    cursor:pointer;
+    /* padding: 8px; imagen interna se ve mas pequena */
+}
