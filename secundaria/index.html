@@ -7,58 +7,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.cdnfonts.com/css/youtube-sans" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>VIVIZ (비비지) - 'Untie' Performance Video</title>
 
 </head>
 
 <body>
 
-    <nav>
+    <nav class="nav-movil">
 
-        <div class="left">
+        <div class="principal">
 
-            <img class="menu" src="./images/iconos/menu.svg" alt="menu" width="24px">
-            <img src="./images/iconos/logo principal.svg" alt="Youtube" width="120px" height="30">
+            <img class="menu" src="./images/iconos/menu.svg" alt="menu" width="20px">
+            <img src="./images/iconos/logo principal.svg" alt="Youtube" width="100px" height="30">
             
         </div>
+
+        <div class="nav-tablet">
+
+            <div class="center">
+
+                <div class="lupa">
+                    <img src="./images/iconos/lupa.svg" alt="Buscar" width="20px">
+                </div>
+
+                <img class="micro" src="./images/iconos/microfono.svg" alt="Voz" width="20px" height="20px">
+
+            </div>
+
+            <div class="right">
+
+                <div>
+                    <img src="./images/iconos/crear.svg" alt="crear" width="20px">
+                    <img src="./images/iconos/notificaciones.svg" alt="notificaciones" width="20px">
+                </div>
+
+                <img class="user" src="./images/pfp_yo.jpg" alt="usuario" width="34px" height="34px">
+
+            </div>
+        </div>    
+
+    </nav>
+
+    <nav class="nav-pc">
+
+        <div class="principal">
+
+            <img class="menu" src="./images/iconos/menu.svg" alt="menu" width="20px">
+            <img src="./images/iconos/logo principal.svg" alt="Youtube" width="100px" height="30">
+            
+        </div>
+
 
         <div class="center">
 
             <input type="text" placeholder="Buscar">
 
             <div class="lupa">
-                <img src="./images/iconos/lupa.svg" alt="Buscar" width="24px">
+                <img src="./images/iconos/lupa.svg" alt="Buscar" width="20px">
             </div>
 
-            <img class="micro" src="./images/iconos/microfono.svg" alt="Voz" width="24px" height="24px">
+            <img class="micro" src="./images/iconos/microfono.svg" alt="Voz" width="20px" height="20px">
 
         </div>
-
+             
         <div class="right">
 
             <div>
-                <img src="./images/iconos/crear.svg" alt="crear" width="24px">
-                <img src="./images/iconos/notificaciones.svg" alt="notificaciones" width="24px">
+                <img src="./images/iconos/crear.svg" alt="crear" width="20px">
+                <img src="./images/iconos/notificaciones.svg" alt="notificaciones" width="20px">
             </div>
 
             <img class="user" src="./images/pfp_yo.jpg" alt="usuario" width="34px" height="34px">
 
         </div>
+  
 
     </nav>
+
+
 
     <section id="main">
 
         <section id="columnleft">
 
-            <video class="one" src="./videos/videoprincipal.mp4" width="100%"></video>
+            <video class="one" src="./videos/videoprincipal.mp4" type="video/mp4" width="100%" controls></video>
             <h1 class="two">VIVIZ (비비지) - 'Untie' Performance Video</h1>
 
             <div class="three">
 
                 <div>
-                    <img src="./images/pfp.bpm.jpeg" alt="BPM entertainment">
+
+                    <img src="./images/pfp.bpm.jpeg" alt="BPM entertainment" width="40px" height="40px">
 
                     <div>
                         <a href="https://www.youtube.com/@BPMEntertainment-official" target="_blank">
@@ -68,27 +111,29 @@
                     </div>
 
                     <button>Suscribirse</button>
+
                 </div>
 
                 <div>
+
                     <div>
-                        <img src="./images/iconos/like.svg" alt="like">
+                        <img src="./images/iconos/like.svg" alt="like" width="24px" height="24px">
                         <p>124 k</p>
                     </div>
 
-                    <img src="./images/iconos/dislike.svg" alt="dislike">
+                    <img src="./images/iconos/dislike.svg" alt="dislike" width="24px" height="24px">
 
                     <div>
-                        <img src="./images/iconos/compartir.svg" alt="share">
+                        <img src="./images/iconos/compartir.svg" alt="share" width="24px" height="24px">
                         <p>Compartir</p>
                     </div>
 
                     <div>
-                        <img src="./images/iconos/descarga.svg" alt="Download">
+                        <img src="./images/iconos/descarga.svg" alt="Download" width="24px" height="24px">
                         <p>Descargar</p>
                     </div>
 
-                    <img src="./images/iconos/mas.horizontal.svg" alt="More">
+                    <img src="./images/iconos/mas.horizontal.svg" alt="More" width="24px" height="24px">
 
                 </div>
 
@@ -104,20 +149,1056 @@
             </div>
 
             <div class="five">
+
                 <h1>9,335 comentarios</h1>
-                <img src="./images/iconos/ordenar.svg" alt="Sort">
+                <img src="./images/iconos/ordenar.svg" alt="Sort" width="24px" height="24px">
                 <p>Ordenar por</p>
+
             </div>
 
-            <div class="six">
-                <div class="comment1">
+            <section id="videos-movil">
 
+                <div class="uno">
+    
+                    <a href="https://www.youtube.com/watch?v=1p2cafgpD1M">
+                        <img src="./images/sidevideos/soojin-agassi.jpg" alt="Agassi" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=1p2cafgpD1M">
+                            <p>수진 (SOOJIN) '아가씨' Official MV</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/channel/UCKdG852wkTilD2Qyd74kgqg">
+                            <h4>SOOJIN</h4>
+                        </a>
+    
+                        <h6>12 M de vistas - hace 1 mes</h6>
+                    </div>
+    
                 </div>
-            </div>
+    
+                <div class="dos">
+    
+                    <a href="https://www.youtube.com/watch?v=b9Khqe7_Wu8">
+                        <img src="./images/sidevideos/viviz.npop.jpg" alt="Viviz" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=b9Khqe7_Wu8M">
+                            <p>VIVIZ 'Untie' Ι NPOP EP.12 231120</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/@NPOP_OFFICIAL">
+                            <h4>NPOP</h4>
+                        </a>
+    
+                        <h6>167 k vistas - hace 1 mes</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="shorts">
+
+                    <h1>Shorts que recrean este video</h1>
+    
+                    <div>
+                        <a href="https://www.youtube.com/shorts/6TWGXFTIwV4">
+                            <img src="./images/shorts/1.webp" alt="Shorts" width="131px" width="238px">
+                        </a>
+    
+                        <p>중독성? 별로 없타라타라 언타이➿ #VIVIZ #비비지 
+                            #EUNHA #은하 #SINB #신비 #UMJI #엄지 #Untiechallenge #언타이챌린지
+                        </p>
+                        <h5>572k vistas</h5>
+                    </div>
+    
+                    <div>
+                        <a href="https://www.youtube.com/shorts/NpqR4YWT4BY">
+                            <img src="./images/shorts/2.webp" alt="Shorts" width="131px" width="238px">
+                        </a>
+    
+                        <p>노래 안무 전부 내 스타일❤️❤️ @VIVIZofficial 쵝오❤️‍🔥 #untie #viviz #비비지 #kpop #onepickent #원픽이엔티</p>
+                        <h5>242k vistas</h5>
+                    </div>
+    
+                    <div>
+                       <a href="https://www.youtube.com/shorts/XhD_nbpMrjk">
+                            <img src="./images/shorts/3.webp" alt="Shorts" width="131px" width="238px">
+                        </a>
+    
+                        <p>VIVIZ (비비지) - 'Untie' Dance cover #kpop #shorts #untie #viviz</p>
+                        <h5>39k vistas</h5>
+                    </div>
+    
+                    <div>
+                        <a href="https://www.youtube.com/shorts/136o1kjsuoY">
+                             <img src="./images/shorts/4.webp" alt="Shorts" width="131px" width="238px">
+                         </a>
+     
+                         <p>VIVIZ-Untie dance cover❤️‍🔥 #VIVIZ #비비지 #EUNHA #은하 #SINB #신비 #UMJI #엄지 #Untie #Untie_challenge</p>
+                         <h5>35k vistas</h5>
+                    </div>
+    
+                    <div>
+                        <a href="https://www.youtube.com/shorts/IluJmbNlbww">
+                             <img src="./images/shorts/5.webp" alt="Shorts" width="131px" width="238px">
+                         </a>
+     
+                         <p>AIみたいなビジュアルを持つウナちゃん 【VIVIZ／GFRIEND】#shorts</p>
+                         <h5>21k vistas</h5>
+                    </div>
+    
+                    <div>
+                        <a href="https://www.youtube.com/shorts/AsIbcZyJyTM">
+                             <img src="./images/shorts/6.webp" alt="Shorts" width="131px" width="238px">
+                         </a>
+     
+                         <p>Untie by VIVIZ #kpop #kpopdancecover #viviz</p>
+                         <h5>67k vistas</h5>
+                    </div>
+    
+                    <div>
+                        <a href="https://www.youtube.com/shorts/ii8QQEWwVBc">
+                             <img src="./images/shorts/7.webp" alt="Shorts" width="131px" width="238px">
+                         </a>
+     
+                         <p>TATATATATATA UNTIE⚡️ #Untie #VIVIZ #shortsz</p>
+                         <h5>45k vistas</h5>
+                    </div>
+    
+                </div>
+                
+                <div class="tres">
+    
+                    <a href="https://www.youtube.com/watch?v=_cWIJ9FoqMk">
+                        <img src="./images/sidevideos/hwasa.chili.jpg" alt="Hwasa" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=_cWIJ9FoqMk">
+                            <p>화사(HWASA) X SWF2 - Chili MV</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/@TheChoomofficial">
+                            <h4>The CHOOM (더 춤)</h4>
+                        </a>
+    
+                        <h6>13 M de vistas - hace 2 meses</h6>
+                    </div>
+    
+                </div>
+    
+    
+                <div class="cuatro">
+    
+                    <a href="https://www.youtube.com/watch?v=3jK3zDGfuzg">
+                        <img src="./images/sidevideos/sailor.anecdotastragicas.jpg" alt="Sailorfag" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=3jK3zDGfuzg">
+                            <p>ANECDOTAS TRAGICAS DE AÑO NUEVO =(</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/@Sailorfag">
+                            <h4>Sailorfag</h4>
+                        </a>
+    
+                        <h6>77 k vistas - hace 20 horas</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="cinco">
+    
+                    <a href="https://www.youtube.com/watch?v=ZWKyJrgE7Kw">
+                        <img src="./images/sidevideos/nimeladilles.victimatraumas.jpg" alt="Ni me ladilles" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=ZWKyJrgE7Kw">
+                            <p>¿Hasta qué punto puedo ser víctima de mis traumas? | EP 198</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/@nimeladilles">
+                            <h4>NI ME LADILLES</h4>
+                        </a>
+    
+                        <h6>22 k vistas - hace 6 días</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="seis">
+    
+                    <a href="https://www.youtube.com/watch?v=9t57C7NcjWo&ab_channel=KQENTERTAINMENT">
+                        <img src="./images/sidevideos/ateez.crazyform.jpg" alt="Ateez" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=9t57C7NcjWo&ab_channel=KQENTERTAINMENT">
+                            <p>ATEEZ(에이티즈) - '미친 폼 (Crazy Form)' Official MV</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/@KQENT">
+                            <h4>KQ ENTERTAINMENT</h4>
+                        </a>
+    
+                        <h6>50 M de vistas - hace 4 semanas</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="siete">
+    
+                    <a href="https://www.youtube.com/watch?v=VFeRPM7Sm6c&ab_channel=XG">
+                        <img src="./images/sidevideos/xg.puppetshow.jpg" alt="XG" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=VFeRPM7Sm6c&ab_channel=XG">
+                            <p>XG - PUPPET SHOW (Official Music Video)</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/channel/UC12HMtO5MYph9dCZZ7yygngT">
+                            <h4>XG</h4>
+                        </a>
+    
+                        <h6>17 M de vistas - hace 3 meses</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="ocho">
+    
+                    <a href="https://www.youtube.com/watch?v=nFHG0TeBIIs">
+                        <img src="./images/sidevideos/1thek.viviz.uitdance.jpg" alt="Viviz" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=nFHG0TeBIIs">
+                            <p>VIVIZ(비비지) - MANIAC | 매니악 | 수트댄스 | Suit Dance | Performance | 4K</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/@1theKOriginals">
+                            <h4>1theK Originals - 원더케이 오리지널</h4>
+                        </a>
+    
+                        <h6>2.6 M de vistas - hace 1 mes</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="nueve">
+    
+                    <a href="https://www.youtube.com/watch?v=olDWm2veCrM">
+                        <img src="./images/sidevideos/babymonster.batterup.jpg" alt="Babymonster" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=olDWm2veCrM">
+                            <p>BABYMONSTER - 'BATTER UP' M/V</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/channel/UCqwUnggBBct-AY2lAdI88jQ">
+                            <h4>BABYMONSTER</h4>
+                        </a>
+    
+                        <h6>141 M de vistas - hace 1 mes</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="diez">
+    
+                    <a href="https://www.youtube.com/watch?v=4R7vRFGJr3k">
+                        <img src="./images/sidevideos/itzy.borntobe.jpg" alt="Itzy" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=4R7vRFGJr3k">
+                            <p>ITZY ""BORN TO BE"" M/V @ITZY</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/@JYPEntertainment">
+                            <h4>JYP Entertainment</h4>
+                        </a>
+    
+                        <h6>9.4 M de vistas - hace 12 días</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="once">
+    
+                    <a href="https://www.youtube.com/watch?v=J92tQXB2rf8">
+                        <img src="./images/sidevideos/kissoflife.jpg" alt="Kiss of life" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=J92tQXB2rf8">
+                            <p>KISS OF LIFE (키스오브라이프) 'Bad News' Performance Video</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/channel/UCvEEeBssb4XxIfWWIB8IjMw">
+                            <h4>KISS OF LIFE</h4>
+                        </a>
+    
+                        <h6>1.4 M de vistas - hace 1 mes</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="doce">
+    
+                    <a href="https://www.youtube.com/watch?v=J92tQXB2rf8">
+                        <img src="./images/sidevideos/kissoflife.jpg" alt="Kiss of life" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=J92tQXB2rf8">
+                            <p>KISS OF LIFE (키스오브라이프) 'Bad News' Performance Video</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/channel/UCvEEeBssb4XxIfWWIB8IjMw">
+                            <h4>KISS OF LIFE</h4>
+                        </a>
+    
+                        <h6>1.4 M de vistas - hace 1 mes</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="trece">
+    
+                    <a href="https://www.youtube.com/watch?v=woKq2sD8xho">
+                        <img src="./images/sidevideos/misamo.jpg" alt="Misamo" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=woKq2sD8xho">
+                            <p>MISAMO “Do not touch” M/V</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/@JYPEntertainment">
+                            <h4>JYP Entertainment</h4>
+                        </a>
+    
+                        <h6>94 M de vistas - hace 5 meses</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="catorce">
+    
+                    <a href="https://www.youtube.com/watch?v=dCiX_0CVPvQ">
+                        <img src="./images/sidevideos/osaka.jpg" alt="Awich" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=dCiX_0CVPvQ">
+                            <p>【-琉球-】Awich / 唾奇 / OZworld / CHICO CARLITO prod. by Diego Ave | Red Bull RASEN</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/@RedBullMIC">
+                            <h4>レッドブルマイク</h4>
+                        </a>
+    
+                        <h6>8.2 M de vistas - hace 9 meses</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="quince">
+    
+                    <a href="https://www.youtube.com/watch?v=_iOVHaDxXgM">
+                        <img src="./images/sidevideos/simon.loco.jpg" alt="Simon Dominic" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=_iOVHaDxXgM">
+                            <p>사이먼 도미닉 (Simon Dominic) & 로꼬 (Loco) – ‘밤이 되면’ Official Music Video [ENG/CHN]</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/@AOMGOFFICIAL">
+                            <h4>AOMGOFFICIAL</h4>
+                        </a>
+    
+                        <h6>4.8 M de vistas - hace 2 años</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="dieciseis">
+    
+                    <a href="https://www.youtube.com/watch?v=eCJePo-R7aY">
+                        <img src="./images/sidevideos/malibu.jpg" alt="Malibu" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=eCJePo-R7aY">
+                            <p>pH-1 'Malibu (Feat. The Quiett, Mokyo) (Prod. Mokyo)' Official Music Video</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/@H1GHRMUSICOFFICIAL">
+                            <h4>H1GHR MUSIC</h4>
+                        </a>
+    
+                        <h6>8.6 M de vistas - hace 4 años</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="diecisiete">
+    
+                    <a href="https://www.youtube.com/watch?v=Dua-Mh73Y2k">
+                        <img src="./images/sidevideos/natikilla.jpg" alt="Nathy Peluso" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=Dua-Mh73Y2k">
+                            <p>NATHY PELUSO - NATIKILLAH</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/channel/UCTjZWgoZjy-rn7nAjdtIdyQ">
+                            <h4>NATHY PELUSO</h4>
+                        </a>
+    
+                        <h6>17 M de vistas - hace 4 años</h6>
+                    </div>
+    
+                </div>
+    
+                <div class="dieciocho">
+    
+                    <a href="https://www.youtube.com/watch?v=3CvJKTChsl4">
+                        <img src="./images/sidevideos/aespa.drama.jpg" alt="aespa" width="168px" height="94px">
+                    </a>
+    
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=3CvJKTChsl4">
+                            <p>aespa 에스파 'Drama' Performance Video</p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/channel/UC9GtSLeksfK4yuJ_g1lgQbg">
+                            <h4>aespa</h4>
+                        </a>
+    
+                        <h6>6.1 M de vistas - hace 1 mes</h6>
+                    </div>
+    
+                </div>
+    
+            </section>
+
+            <section id="comments">
+
+                <div class="comment1">
+    
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCv_CiGOBOkhoRkrVv7SY1NA">
+                            <img src="./images/comments/wnterbrd7455.jpg" alt="comment" width="40px" height="40px">
+                        </a>
+                    </div>
+    
+                    <a href="https://www.youtube.com/channel/UCv_CiGOBOkhoRkrVv7SY1NA">
+                        <h4>@wnterbrd7455</h4>
+                    </a>
+                    <h6>hace 2 días</h6>
+                    <p>they really served while calling out all the fake stuff in social media omg ICONIC</p>
+    
+                </div>
+    
+                <div class="comment2">
+    
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCYetyLXxcKy2qeCJUDZM0Kw">
+                            <img src="./images/comments/user-wook828.jpg" alt="comment" width="40px" height="40px">
+                        </a>
+                    </div>
+    
+                    <a href="https://www.youtube.com/channel/UCYetyLXxcKy2qeCJUDZM0Kw">
+                        <h4>@user-wook828</h4>
+                    </a>
+                    <h6>hace 3 días</h6>
+                    <p>"매니악 역주행 중인데 언타이도 차트인 해야한다 이렇게 세련된 곡은 오랜만임</p>
+                    <p>해외에서 더 인기있는 언타이</p>
+                    <p>국내 차트인하자"</p>
+    
+                </div>
+    
+                <div class="comment3">
+    
+                    <div>
+                        <a href="https://www.youtube.com/channel/UC5Tq1FHPHkc43MzKZQFYEVA">    
+                            <img src="./images/comments/leslieb3208.jpg" alt="comment" width="40px" height="40px">
+                        </a>
+                    </div>
+    
+                    <a href="https://www.youtube.com/channel/UC5Tq1FHPHkc43MzKZQFYEVA">
+                        <h4>@leslieb3208</h4>
+                    </a>
+                    <h6>hace 4 días</h6>
+                    <p>Umji 😩💗💗💗💗 tan hermosa y su baile ufff ✨✨✨</p>
+    
+                </div>
+    
+                <div class="comment4">
+    
+                    <div>
+                        <a href="https://www.youtube.com/channel/UClBAYL6eTxHVt-VSvjwsICQ">
+                            <img src="./images/comments/dandy1929.jpg" alt="comment" width="40px" height="40px">
+                        </a>
+                    </div>
+    
+                    <a href="https://www.youtube.com/channel/UClBAYL6eTxHVt-VSvjwsICQ">
+                        <h4>@dandy1929</h4>
+                    </a>
+                    <h6>hace 2 semanas</h6>
+                    <p>Hubiera jurado que Viviz presentaría Untie frente a los militares, esos chicos siempre son super energéticos,</p>
+                    <p>sabes lo explosivo que hubiera sido Untie? Mínimo trending!</p>
+                    <p> Le tienes miedo al éxito BPM?.. Ya estoy pensando que ni siquiera tienen equipo de marketing. xd</p>
+    
+                </div>
+    
+                <div class="comment5">
+    
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCeNSlylUPcHg16W8AFvYb1g">
+                            <img src="./images/comments/user-yn9kk8uu5w.jpg" alt="comment" width="40px" height="40px">
+                        </a>
+                    </div>
+    
+                    <a href="https://www.youtube.com/channel/UCeNSlylUPcHg16W8AFvYb1g">
+                        <h4>@user-yn9kk8uu5w</h4>
+                    </a>
+                    <h6>hace 2 semanas</h6>
+                    <p>Hubiera jurado que Viviz presentaría Untie frente a los militares, esos chicos siempre son super energéticos,</p>
+                    <p>sabes lo explosivo que hubiera sido Untie? Mínimo trending!</p>
+                    <p> Le tienes miedo al éxito BPM?.. Ya estoy pensando que ni siquiera tienen equipo de marketing. xd</p>
+    
+                </div>
+    
+                <div class="comment6">
+    
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCqYDKVu0qxrRfdZH9nJtz-Q">
+                            <img src="./images/comments/moadorable_.jpg" alt="comment" width="40px" height="40px">
+                        </a>
+                    </div>
+    
+                    <a href="https://www.youtube.com/channel/UCqYDKVu0qxrRfdZH9nJtz-Q">
+                        <h4>@moadorable_</h4>
+                    </a>
+                    <h6>hace 1 mes</h6>
+                    <p>Wow, KANY se lució nuevamente pero vaya que VIVIZ me ha dejado con la boca abierta otra vez ✧⁠\⁠(⁠>⁠o⁠<⁠)⁠ﾉ⁠✧ 
+                        lo hicieron increíble junto a sus bailarinas, las tomas es increíble, vamos apoyemos Untie</p>                
+    
+                </div>
+    
+                <div class="comment7">
+    
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCfo0UFKciFdRTRrXlTje89w">
+                            <img src="./images/comments/Soyeon_harry.jpg" alt="comment" width="40px" height="40px">
+                        </a>
+                    </div>
+    
+                    <a href="https://www.youtube.com/channel/UCfo0UFKciFdRTRrXlTje89w">
+                        <h4>@Soyeon_harry</h4>
+                    </a>
+                    <h6>hace 2 días</h6>
+                    <p>Vivizi killed in this cb... Shook the whole k-pop community 💋💋</p>
+    
+                </div>
+    
+                <div class="comment8">
+    
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCghRWW4gE05-N8-Dwqef4Gg">
+                            <img src="./images/comments/user-yt4tu4kx5p.jpg" alt="comment" width="40px" height="40px">
+                        </a>
+                    </div>
+    
+                    <a href="https://www.youtube.com/channel/UCghRWW4gE05-N8-Dwqef4Gg">
+                        <h4>@user-yt4tu4kx5p</h4>
+                    </a>
+                    <h6>hace 5 días</h6>
+                    <p>타팬인데 그냥 더블타이틀 했어도 대박났을듯 너무 좋아서 눈물 짜고갑니다</p>
+    
+                </div>
+    
+                <div class="comment9">
+    
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCfT23hS0618NiJbgwO6mtfw">
+                            <img src="./images/comments/lisasafriononur3442.jpg" alt="comment" width="40px" height="40px">
+                        </a>
+                    </div>
+    
+                    <a href="https://www.youtube.com/channel/UCfT23hS0618NiJbgwO6mtfw">
+                        <h4>@lisasafriononur3442</h4>
+                    </a>
+                    <h6>hace 10 días</h6>
+                    <p>Lagunya bagus di tambah koreonya keren,,kok bisa g viral???</p>
+    
+                </div>
+    
+                <div class="comment10">
+    
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCCTFns-9Ly4cHBuVgRawpzg">
+                            <img src="./images/comments/davesundra.jpg" alt="comment" width="40px" height="40px">
+                        </a>
+                    </div>
+    
+                    <a href="https://www.youtube.com/channel/UCCTFns-9Ly4cHBuVgRawpzg">
+                        <h4>@davesundra</h4>
+                    </a>
+                    <h6>hace 4 días</h6>
+                    <p>Outstanding dance choreography!! </p>
+                    <p>What a track</p>
+                    <p>🍻👍</p>
+    
+                </div>
+    
+            </section>
 
         </section>
 
-        <section id="columnright">
+        <section id="column-right">
+
+            <div class="uno">
+
+                <a href="https://www.youtube.com/watch?v=1p2cafgpD1M">
+                    <img src="./images/sidevideos/soojin-agassi.jpg" alt="Agassi" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=1p2cafgpD1M">
+                        <p>수진 (SOOJIN) '아가씨' Official MV</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCKdG852wkTilD2Qyd74kgqg">
+                        <h4>SOOJIN</h4>
+                    </a>
+
+                    <h6>12 M de vistas - hace 1 mes</h6>
+                </div>
+
+            </div>
+
+            <div class="dos">
+
+                <a href="https://www.youtube.com/watch?v=b9Khqe7_Wu8">
+                    <img src="./images/sidevideos/viviz.npop.jpg" alt="Viviz" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=b9Khqe7_Wu8M">
+                        <p>VIVIZ 'Untie' Ι NPOP EP.12 231120</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@NPOP_OFFICIAL">
+                        <h4>NPOP</h4>
+                    </a>
+
+                    <h6>167 k vistas - hace 1 mes</h6>
+                </div>
+
+            </div>
+
+            <div class="shorts">
+
+                <h1>Shorts que recrean este video</h1>
+
+                <div>
+                    <a href="https://www.youtube.com/shorts/6TWGXFTIwV4">
+                        <img src="./images/shorts/1.webp" alt="Shorts" width="131px" width="238px">
+                    </a>
+
+                    <p>중독성? 별로 없타라타라 언타이➿ #VIVIZ #비비지 
+                        #EUNHA #은하 #SINB #신비 #UMJI #엄지 #Untiechallenge #언타이챌린지
+                    </p>
+                    <h5>572k vistas</h5>
+                </div>
+
+                <div>
+                    <a href="https://www.youtube.com/shorts/NpqR4YWT4BY">
+                        <img src="./images/shorts/2.webp" alt="Shorts" width="131px" width="238px">
+                    </a>
+
+                    <p>노래 안무 전부 내 스타일❤️❤️ @VIVIZofficial 쵝오❤️‍🔥 #untie #viviz #비비지 #kpop #onepickent #원픽이엔티</p>
+                    <h5>242k vistas</h5>
+                </div>
+
+                <div>
+                   <a href="https://www.youtube.com/shorts/XhD_nbpMrjk">
+                        <img src="./images/shorts/3.webp" alt="Shorts" width="131px" width="238px">
+                    </a>
+
+                    <p>VIVIZ (비비지) - 'Untie' Dance cover #kpop #shorts #untie #viviz</p>
+                    <h5>39k vistas</h5>
+                </div>
+
+                <div>
+                    <a href="https://www.youtube.com/shorts/136o1kjsuoY">
+                         <img src="./images/shorts/4.webp" alt="Shorts" width="131px" width="238px">
+                     </a>
+ 
+                     <p>VIVIZ-Untie dance cover❤️‍🔥 #VIVIZ #비비지 #EUNHA #은하 #SINB #신비 #UMJI #엄지 #Untie #Untie_challenge</p>
+                     <h5>35k vistas</h5>
+                </div>
+
+                <div>
+                    <a href="https://www.youtube.com/shorts/IluJmbNlbww">
+                         <img src="./images/shorts/5.webp" alt="Shorts" width="131px" width="238px">
+                     </a>
+ 
+                     <p>AIみたいなビジュアルを持つウナちゃん 【VIVIZ／GFRIEND】#shorts</p>
+                     <h5>21k vistas</h5>
+                </div>
+
+                <div>
+                    <a href="https://www.youtube.com/shorts/AsIbcZyJyTM">
+                         <img src="./images/shorts/6.webp" alt="Shorts" width="131px" width="238px">
+                     </a>
+ 
+                     <p>Untie by VIVIZ #kpop #kpopdancecover #viviz</p>
+                     <h5>67k vistas</h5>
+                </div>
+
+                <div>
+                    <a href="https://www.youtube.com/shorts/ii8QQEWwVBc">
+                         <img src="./images/shorts/7.webp" alt="Shorts" width="131px" width="238px">
+                     </a>
+ 
+                     <p>TATATATATATA UNTIE⚡️ #Untie #VIVIZ #shortsz</p>
+                     <h5>45k vistas</h5>
+                </div>
+
+            </div>
+            
+            <div class="tres">
+
+                <a href="https://www.youtube.com/watch?v=_cWIJ9FoqMk">
+                    <img src="./images/sidevideos/hwasa.chili.jpg" alt="Hwasa" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=_cWIJ9FoqMk">
+                        <p>화사(HWASA) X SWF2 - Chili MV</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@TheChoomofficial">
+                        <h4>The CHOOM (더 춤)</h4>
+                    </a>
+
+                    <h6>13 M de vistas - hace 2 meses</h6>
+                </div>
+
+            </div>
+
+            <div class="cuatro">
+
+                <a href="https://www.youtube.com/watch?v=3jK3zDGfuzg">
+                    <img src="./images/sidevideos/sailor.anecdotastragicas.jpg" alt="Sailorfag" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=3jK3zDGfuzg">
+                        <p>ANECDOTAS TRAGICAS DE AÑO NUEVO =(</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@Sailorfag">
+                        <h4>Sailorfag</h4>
+                    </a>
+
+                    <h6>77 k vistas - hace 20 horas</h6>
+                </div>
+
+            </div>
+
+            <div class="cinco">
+
+                <a href="https://www.youtube.com/watch?v=ZWKyJrgE7Kw">
+                    <img src="./images/sidevideos/nimeladilles.victimatraumas.jpg" alt="Ni me ladilles" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=ZWKyJrgE7Kw">
+                        <p>¿Hasta qué punto puedo ser víctima de mis traumas? | EP 198</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@nimeladilles">
+                        <h4>NI ME LADILLES</h4>
+                    </a>
+
+                    <h6>22 k vistas - hace 6 días</h6>
+                </div>
+
+            </div>
+
+            <div class="seis">
+
+                <a href="https://www.youtube.com/watch?v=9t57C7NcjWo&ab_channel=KQENTERTAINMENT">
+                    <img src="./images/sidevideos/ateez.crazyform.jpg" alt="Ateez" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=9t57C7NcjWo&ab_channel=KQENTERTAINMENT">
+                        <p>ATEEZ(에이티즈) - '미친 폼 (Crazy Form)' Official MV</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@KQENT">
+                        <h4>KQ ENTERTAINMENT</h4>
+                    </a>
+
+                    <h6>50 M de vistas - hace 4 semanas</h6>
+                </div>
+
+            </div>
+
+            <div class="siete">
+
+                <a href="https://www.youtube.com/watch?v=VFeRPM7Sm6c&ab_channel=XG">
+                    <img src="./images/sidevideos/xg.puppetshow.jpg" alt="XG" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=VFeRPM7Sm6c&ab_channel=XG">
+                        <p>XG - PUPPET SHOW (Official Music Video)</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UC12HMtO5MYph9dCZZ7yygngT">
+                        <h4>XG</h4>
+                    </a>
+
+                    <h6>17 M de vistas - hace 3 meses</h6>
+                </div>
+
+            </div>
+
+            <div class="ocho">
+
+                <a href="https://www.youtube.com/watch?v=nFHG0TeBIIs">
+                    <img src="./images/sidevideos/1thek.viviz.uitdance.jpg" alt="Viviz" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=nFHG0TeBIIs">
+                        <p>VIVIZ(비비지) - MANIAC | 매니악 | 수트댄스 | Suit Dance | Performance | 4K</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@1theKOriginals">
+                        <h4>1theK Originals - 원더케이 오리지널</h4>
+                    </a>
+
+                    <h6>2.6 M de vistas - hace 1 mes</h6>
+                </div>
+
+            </div>
+
+            <div class="nueve">
+
+                <a href="https://www.youtube.com/watch?v=olDWm2veCrM">
+                    <img src="./images/sidevideos/babymonster.batterup.jpg" alt="Babymonster" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=olDWm2veCrM">
+                        <p>BABYMONSTER - 'BATTER UP' M/V</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCqwUnggBBct-AY2lAdI88jQ">
+                        <h4>BABYMONSTER</h4>
+                    </a>
+
+                    <h6>141 M de vistas - hace 1 mes</h6>
+                </div>
+
+            </div>
+
+            <div class="diez">
+
+                <a href="https://www.youtube.com/watch?v=4R7vRFGJr3k">
+                    <img src="./images/sidevideos/itzy.borntobe.jpg" alt="Itzy" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=4R7vRFGJr3k">
+                        <p>ITZY ""BORN TO BE"" M/V @ITZY</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@JYPEntertainment">
+                        <h4>JYP Entertainment</h4>
+                    </a>
+
+                    <h6>9.4 M de vistas - hace 12 días</h6>
+                </div>
+
+            </div>
+
+            <div class="once">
+
+                <a href="https://www.youtube.com/watch?v=J92tQXB2rf8">
+                    <img src="./images/sidevideos/kissoflife.jpg" alt="Kiss of life" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=J92tQXB2rf8">
+                        <p>KISS OF LIFE (키스오브라이프) 'Bad News' Performance Video</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCvEEeBssb4XxIfWWIB8IjMw">
+                        <h4>KISS OF LIFE</h4>
+                    </a>
+
+                    <h6>1.4 M de vistas - hace 1 mes</h6>
+                </div>
+
+            </div>
+
+            <div class="doce">
+
+                <a href="https://www.youtube.com/watch?v=J92tQXB2rf8">
+                    <img src="./images/sidevideos/kissoflife.jpg" alt="Kiss of life" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=J92tQXB2rf8">
+                        <p>KISS OF LIFE (키스오브라이프) 'Bad News' Performance Video</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCvEEeBssb4XxIfWWIB8IjMw">
+                        <h4>KISS OF LIFE</h4>
+                    </a>
+
+                    <h6>1.4 M de vistas - hace 1 mes</h6>
+                </div>
+
+            </div>
+
+            <div class="trece">
+
+                <a href="https://www.youtube.com/watch?v=woKq2sD8xho">
+                    <img src="./images/sidevideos/misamo.jpg" alt="Misamo" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=woKq2sD8xho">
+                        <p>MISAMO “Do not touch” M/V</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@JYPEntertainment">
+                        <h4>JYP Entertainment</h4>
+                    </a>
+
+                    <h6>94 M de vistas - hace 5 meses</h6>
+                </div>
+
+            </div>
+
+            <div class="catorce">
+
+                <a href="https://www.youtube.com/watch?v=dCiX_0CVPvQ">
+                    <img src="./images/sidevideos/osaka.jpg" alt="Awich" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=dCiX_0CVPvQ">
+                        <p>【-琉球-】Awich / 唾奇 / OZworld / CHICO CARLITO prod. by Diego Ave | Red Bull RASEN</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@RedBullMIC">
+                        <h4>レッドブルマイク</h4>
+                    </a>
+
+                    <h6>8.2 M de vistas - hace 9 meses</h6>
+                </div>
+
+            </div>
+
+            <div class="quince">
+
+                <a href="https://www.youtube.com/watch?v=_iOVHaDxXgM">
+                    <img src="./images/sidevideos/simon.loco.jpg" alt="Simon Dominic" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=_iOVHaDxXgM">
+                        <p>사이먼 도미닉 (Simon Dominic) & 로꼬 (Loco) – ‘밤이 되면’ Official Music Video [ENG/CHN]</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@AOMGOFFICIAL">
+                        <h4>AOMGOFFICIAL</h4>
+                    </a>
+
+                    <h6>4.8 M de vistas - hace 2 años</h6>
+                </div>
+
+            </div>
+
+            <div class="dieciseis">
+
+                <a href="https://www.youtube.com/watch?v=eCJePo-R7aY">
+                    <img src="./images/sidevideos/malibu.jpg" alt="Malibu" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=eCJePo-R7aY">
+                        <p>pH-1 'Malibu (Feat. The Quiett, Mokyo) (Prod. Mokyo)' Official Music Video</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/@H1GHRMUSICOFFICIAL">
+                        <h4>H1GHR MUSIC</h4>
+                    </a>
+
+                    <h6>8.6 M de vistas - hace 4 años</h6>
+                </div>
+
+            </div>
+
+            <div class="diecisiete">
+
+                <a href="https://www.youtube.com/watch?v=Dua-Mh73Y2k">
+                    <img src="./images/sidevideos/natikilla.jpg" alt="Nathy Peluso" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=Dua-Mh73Y2k">
+                        <p>NATHY PELUSO - NATIKILLAH</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCTjZWgoZjy-rn7nAjdtIdyQ">
+                        <h4>NATHY PELUSO</h4>
+                    </a>
+
+                    <h6>17 M de vistas - hace 4 años</h6>
+                </div>
+
+            </div>
+
+            <div class="dieciocho">
+
+                <a href="https://www.youtube.com/watch?v=3CvJKTChsl4">
+                    <img src="./images/sidevideos/aespa.drama.jpg" alt="aespa" width="168px" height="94px">
+                </a>
+
+                <div>
+                    <a href="https://www.youtube.com/watch?v=3CvJKTChsl4">
+                        <p>aespa 에스파 'Drama' Performance Video</p>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UC9GtSLeksfK4yuJ_g1lgQbg">
+                        <h4>aespa</h4>
+                    </a>
+
+                    <h6>6.1 M de vistas - hace 1 mes</h6>
+                </div>
+
+            </div>
 
         </section>
 
